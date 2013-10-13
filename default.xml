@@ -49,22 +49,6 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" revision="jb43" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="android_device_generic_x86" groups="pdk" />
-  <project path="device/htc/jewel" name="android_device_htc_jewel" />
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="vanir" revision="jb43" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" />
-  <project path="device/htc/m7spr" name="android_device_htc_m7spr" />
-  <project path="device/htc/m7tmo" name="android_device_htc_m7tmo" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="vanir" revision="jb43" />
-  <project path="device/htc/m7vzw" name="android_device_htc_m7vzw" remote="vanir" revision="jb43" />
-  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
-  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="vanir" revision="jb43" />
-  <project path="device/htc/vigor" name="device_htc_vigor" remote="vanir" revision="jb43" />
-  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="vanir" revision="jb43" />
-  <project path="device/lge/e975" name="android_device_lge_e975" />
-  <project path="device/lge/e980" name="android_device_lge_e980" />
-  <project path="device/lge/gproj-common" name="android_device_lge_gproj-common" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="vanir" revision="jb43" />
-  <project path="device/lge/p880" name="mzhou/vanir_device_lge_p880" remote="github" revision="jb43" />
   <project path="device/motorola/maserati" name="android_device_motorola_maserati" />
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" revision="jb43" />
   <project path="device/motorola/xt897" name="android_device_motorola_xt897" remote="ls" revision="jb3" />
@@ -75,51 +59,6 @@
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="ls" revision="jb3" />
   <project path="device/sample" name="android_device_sample" groups="pdk" />
-  <project path="device/samsung/apache" name="device_samsung_apache" remote="vanir" revision="jb43" />
-  <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" groups="GS3_device" />
-  <project path="device/samsung/d2att" name="android_device_samsung_d2att" groups="GS3_device" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" groups="GS3_device" />
-  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" groups="GS3_device" />
-  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" groups="GS3_device" />
-  <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="vanir" revision="jb43" />
-  <project path="device/samsung/i605" name="android_device_samsung_i605" groups="device" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="vanir" revision="jb43" groups="GS3_device" />
-  <project path="device/samsung/i9305" name="device_samsung_i9305" remote="vanir" revision="jb43" groups="GS3_device" />
-  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltecri" name="android_device_samsung_jfltecri" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" groups="device" />
-  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/manta" name="platform_device_samsung_manta" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="vanir" revision="jb43" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" groups="tab2" />
-  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="vanir" revision="jb43" groups="tab2" />
-  <project path="device/samsung/p3110" name="android_device_samsung_p3110" groups="tab2" />
-  <project path="device/samsung/p5100" name="device_samsung_p5100" remote="vanir" revision="jb43" groups="tab2" />
-  <project path="device/samsung/p5110" name="android_device_samsung_p5110" groups="tab2" />
-  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="device" />
-  <project path="device/samsung/smdk4412-qcom-common" name="device_samsung_smdk4412-qcom-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" groups="device" />
-  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" groups="device" />
-  <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/sony/common" name="android_device_sony_common" />
-  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="vanir" revision="jb43" groups="device" />
-  <project path="device/sony/honami" name="android_device_sony_honami" />
-  <project path="device/sony/pollux" name="android_device_sony_pollux" remote="vanir" revision="jb43" />
-  <project path="device/sony/pollux-common" name="android_device_sony_pollux-common" groups="device" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" />
-  <project path="device/sony/yuga" name="android_device_sony_yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" />
@@ -475,14 +414,9 @@
   <project path="system/vold" name="platform_system_vold" remote="vanir" revision="jb43" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
-  <project path="vendor/asus" name="vendor_asus" remote="vanir" revision="jb43" groups="vendor" />
-  <project path="vendor/bn" name="vendor_bn" remote="vanir" revision="jb43" groups="vendor" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="vanir" revision="jb43" />
-  <project path="vendor/lge" name="vendor_lge" remote="vanir" revision="jb43" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="vanir" revision="jb43" groups="vendor" />
+  
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb43" groups="vendor" />
-  <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="jb43" groups="vendor" />
+  
   <project path="vendor/vanir" name="platform_vendor_vanir" remote="vm" revision="jb43" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -498,6 +432,6 @@
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="github" revision="cm-10.2" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-10.2" />
 <!--  <project path="vendor/ti" name="TheMuppets/proprietary_vendor_ti" remote="github" revision="cm-10.2" /> -->
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-10.2" />
+  
 
 </manifest>
