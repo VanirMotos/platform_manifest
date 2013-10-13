@@ -10,6 +10,8 @@
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
+  <remote name="vm"
+          fetch="https://github.com/VanirMotos" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
   <remote name="github"
@@ -481,7 +483,7 @@
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="vanir" revision="jb43" groups="vendor" />
   <project path="vendor/sony" name="vendor_sony" remote="vanir" revision="jb43" groups="vendor" />
-  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vanir" revision="jb43" groups="vendor" />
+  <project path="vendor/vanir" name="platform_vendor_vanir" remote="vm" revision="jb43" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" />
