@@ -1,4 +1,4 @@
-Team Vanir's repo
+VanirMotos repo
 ===========
 
 This branch is for Vanir's android-4.3_r2.1 based ROM
@@ -15,31 +15,9 @@ To initialize your local repository using my trees, use the following command:
 
 Then to sync up:
 
-    repo sync -j8
+    repo sync -j32
     
 Our gerrit:
 
 	http://vaniraosp.goo.im/#/q/status:open,n,z
-
-Vanir developer Resources:
-
-[TUT] initializing the build environment
-
-	http://pastebin.com/1DD9ZfQ4
-
-[TUT] capturing logcats
-	
-	http://pastebin.com/mqF7Ddz4
-
-[TUT] cherry-picking
-
-	http://pastebin.com/StEbCWEY
-	
-[TUT] basic git commands & examples of use
-
-	http://pastebin.com/rLaGw0zj
-	
-[TUT] submitting to gerrit for review
-
-	http://pastebin.com/UFVH0M63
 
