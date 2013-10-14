@@ -18,6 +18,7 @@
           fetch="https://github.com/" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
+  
   <remote name="ls"
            fetch="git://github.com/LiquidSmooth/" />
   <default revision="cm-10.2"
@@ -304,7 +305,7 @@
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="vanir" revision="jb43" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="vanir" revision="jb43" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="ls" revision="jb3" />
   <project path="hardware/samsung" name="android_hardware_samsung" />
   <project path="hardware/samsung_slsi/exynos5" name="platform_hardware_samsung_slsi_exynos5" remote="vanir" revision="jb43" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
